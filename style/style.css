@@ -4,7 +4,6 @@ html{
     font-family: "M PLUS 1p", "M+ Type-1", "M+ Type-1 Regular", "Yu Gothic", "Meiryo", sans-serif;
     font-size: 16px;
     line-height: 1.65;
-    font-weight: 400;
     color: #2a2a2a;
     background-color: #fdf7e6;
 }
@@ -28,6 +27,7 @@ h1,h2,h3,h4,p,ul,li{
     width: min(1120px, calc(100% - 32px));
     margin: 0 auto;
     padding: 28px 0 44px;
+    color: #3b3809;
 }
 
 .title_area{
@@ -88,7 +88,7 @@ article p{
 .collapsible-label{
     margin: 0;
     font-weight: 700;
-    color: #1f4bd8;
+    color: #3b3809;
     cursor: pointer;
     user-select: none;
 }
@@ -97,7 +97,7 @@ article p{
     max-height: 0;
     overflow: hidden;
     opacity: 0;
-    transition: max-height 0.3s ease, opacity 0.3s ease, margin-top 0.3s ease;
+    transition: max-height 0.3s ease, opacity 0.3s ease, margin-top 0.3s ease; 
     margin-top: 0;
 }
 
