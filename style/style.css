@@ -115,6 +115,10 @@ article div img{
     display: block;
 }
 
+.content article{
+    padding-bottom: 10px;
+}
+
 footer{
     margin-top: 26px;
     text-align: center;
