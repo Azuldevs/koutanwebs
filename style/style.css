@@ -35,7 +35,7 @@ h1,h2,h3,h4,p,ul,li{
     overflow: hidden;
     border-radius: 28px;
     background: rgba(255, 255, 255, 0.82);
-    box-shadow: 0 20px 42px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 42px rgba(0, 0, 0, 0.06);
 }
 
 .title_area img{
@@ -62,7 +62,8 @@ article{
     background: #ffffff;
     border-radius: 26px;
     padding: 30px;
-    box-shadow: 0 18px 38px rgba(56, 62, 83, 0.08);
+    box-shadow: 0 18px 38px rgba(56, 62, 83, 0.06);
+    margin-bottom: 15px;
 }
 
 article h2{
@@ -113,10 +114,6 @@ article div img{
     border-radius: 20px;
     margin-top: 18px;
     display: block;
-}
-
-.content article{
-    padding-bottom: 10px;
 }
 
 footer{
